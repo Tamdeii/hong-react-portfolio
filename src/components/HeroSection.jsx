@@ -32,8 +32,8 @@ export const HeroSection = () => {
                             View My Work
                         </a>
                         <a
-                            href="/Hong-Ton-Resume.pdf"
-                            download="Hong-Ton-Resume.pdf"
+                            href="/Hong Resume final.pdf"
+                            download="Hong Resume final.pdf"
                             className="
                                 px-6 py-2 rounded-full border border-primary
                                 text-primary hover:bg-primary/10 transition-colors duration-300
