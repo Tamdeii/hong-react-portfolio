@@ -3,32 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Saas Landing Page",
-        description: "A modern and responsive landing page app using React and Tailwind CSS.",
-        image: "projects/project4.png",
-        tags: ["ReactJS", "Tailwind CSS", "JavaScript", "ExpressJS"],
+        title: "D2PSim: Disaster-to-Packet Simulation Framework",
+        description:
+            "Multi-layer OMNeT++ framework modeling seismic hazard propagation and cascading failures across a 6,000+ node IoT topology; HAZUS-based fragility assessment over 25,000+ buildings with 690 earthquake scenarios.",
+        image: "/utils/project1.png",
+        tags: ["OMNeT++", "Python", "ObsPy", "OpenStreetMap", "USGS ShakeMap"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Tamdeii",
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
+        title: "YBA Member & Donation Management App",
         description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: "/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
+            "Web/mobile app with Express.js managing participants, donations and financial data for 600+ enterprise members, with data workflows and an admin dashboard.",
+        image: "/utils/project2.png",
+        tags: ["Express.js", "JavaScript", "REST APIs", "Admin Dashboard"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Tamdeii",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Music Generation App with LSTM",
         description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
+            "Generative music app using LSTM networks to compose melodies, with an interactive web interface for playback and experimentation.",
+        image: "/utils/project3.png",
+        tags: ["Python", "TensorFlow/Keras", "LSTM", "JavaScript"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Tamdeii/Music-generation-app",
     },
 ];
 
@@ -42,8 +43,8 @@ export const ProjectsSection = () => {
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Here are some of my recent projects that showcase my skills and creativity.
-                Click on the project title to view the demo or source code.
+                Research and engineering projects spanning AI-driven network
+                simulation, full-stack web apps and generative AI.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -107,7 +108,8 @@ export const ProjectsSection = () => {
             <div className="text-center mt-12">
                 <a 
                     href="https://github.com/Tamdeii"
-                    target="HongTon_Tamdeii"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="cosmic-button w-fit flex items-center mx-auto gap-2"
                 >
                     Check my GitHub for more projects <ArrowRight size={16}/>

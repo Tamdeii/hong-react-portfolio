@@ -2,6 +2,7 @@ import { cn } from "../lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import {
+    Github,
     Mail,
     MapPin,
     Send,
@@ -37,7 +38,8 @@ export const ContactSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    I'm always open to discussing new projects, or opportunities.
+                    I'm always open to research collaboration, new projects and
+                    opportunities. Feel free to reach out.
                 </p>
 
                 {/* CONTACT INFORMATION */}
@@ -84,12 +86,9 @@ export const ContactSection = () => {
                             </div>
                             <div className="flex flex-col">
                                 <h4 className="font-medium">Location</h4>
-                                <a
-                                    href=""
-                                    className="text-muted-foreground hover:text-primary transition-colors"
-                                >
-                                    100 Gibbs St, Troy, AL 36081, USA
-                                </a>
+                                <span className="text-muted-foreground">
+                                    Troy, Alabama, USA
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -106,6 +105,15 @@ export const ContactSection = () => {
                                 className="text-primary hover:text-primary/80 transition-colors"
                             >
                                 <Linkedin size={36}/>
+                            </a>
+                            <a
+                                href="https://github.com/Tamdeii"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                                className="text-primary hover:text-primary/80 transition-colors"
+                            >
+                                <Github size={36}/>
                             </a>
                         </div>
                     </div>

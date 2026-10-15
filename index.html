@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta
+      name="description"
+      content="Hong Ton — M.S. in Artificial Intelligence at Troy University. Graduate Research Assistant working on disaster-resilient communication networks (D2PSim) and full-stack web development."
+    />
+    <title>Hong Ton | AI & Software Engineer</title>
+    <script>
+      // Default to starry-night (dark) theme unless user explicitly chose light
+      try {
+        if (localStorage.getItem("theme") !== "light") {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (e) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
